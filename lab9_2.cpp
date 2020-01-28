@@ -14,12 +14,12 @@ int main(){
  file_original.open("D:\\lab9\\lab9-2562-2-theeramet0793\\cheerbook.txt");
  string textline;
 
-file_copy<<"“-------------------- SOTUS ---------------------”\n";
+file_copy<<"SOTUS\n";
  while (getline(file_original,textline))
  {
      file_copy<<textline<<"\n";
  }
- file_copy<<"“-------------------- SOTUS ---------------------”\n";
+ file_copy<<"SOTUS\n";
  file_copy.close();
  file_original.close();
 
